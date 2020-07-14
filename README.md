@@ -6,7 +6,7 @@ Inspired by [chrisg86/gatsby-remark-classes](https://github.com/chrisg86/gatsby-
 # Installation
 
 ```
-npm install --save @noxify/gridsome-remark-classes
+npm install --save @jammeryhq/gridsome-remark-classes
 ```
 
 # Usage
@@ -27,7 +27,7 @@ module.exports = {
   transformers : {
     remark : {
       plugins : [
-        ['@noxify/gridsome-remark-classes', {
+        ['@jammeryhq/gridsome-remark-classes', {
           'heading[depth=1]': 'title',
           'heading[depth=2]': 'subtitle',
           'paragraph': 'text-normal font-serif'
