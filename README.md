@@ -1,17 +1,37 @@
-# gridsome-remark-classes
-Gridsome Remark plugin to add css classes to any element
+<div align="center">
 
-Inspired by [chrisg86/gatsby-remark-classes](https://github.com/chrisg86/gatsby-remark-classes)
+<a href="https://www.jammeryhq.com" title="JammeryHQ" target="_blank">
+
+  <img src="./jammeryhq.png" width="128" />
+  
+</a>
+
+<p>
+Fast-track your JAMstack development & learning
+</p>
+</div>
+
+<hr />
+
+# About this plugin
+
+Gridsome Remark plugin to add css classes to any element
 
 # Installation
 
-```
+```bash
 npm install --save @jammeryhq/gridsome-remark-classes
+
+# or
+
+yarn add @jammeryhq/gridsome-remark-classes
 ```
 
-# Usage
+## How to use
 
 ```js
+//gridsome.config.js
+
 module.exports = {
 
   plugins: [
@@ -37,6 +57,10 @@ module.exports = {
   }
 }
 ```
-# Documentation
+## Documentation
 
 You can find the complete documentation here: https://webstone.info/documentation/gridsome-remark-classes
+
+## Credits
+
+Inspired by [chrisg86/gatsby-remark-classes](https://github.com/chrisg86/gatsby-remark-classes)
